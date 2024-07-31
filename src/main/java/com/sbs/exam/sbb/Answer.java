@@ -1,10 +1,9 @@
-package com.sbs.exam.sub;
+package com.sbs.exam.sbb;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Getter

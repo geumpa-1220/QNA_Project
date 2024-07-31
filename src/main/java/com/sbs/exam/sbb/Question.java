@@ -1,12 +1,14 @@
-package com.sbs.exam.sub;
+package com.sbs.exam.sbb;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
 //엔티티 클래스 => 아래 클래스와 1:1로 매칭되는 테이블이 DB에 없다면,자동 생성.
+@Data
 public class Question {
     @Id   //primary key
     @GeneratedValue(strategy = GenerationType.IDENTITY) //auto_increment

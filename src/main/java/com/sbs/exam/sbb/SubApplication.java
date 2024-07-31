@@ -1,4 +1,4 @@
-package com.sbs.exam.sub;
+package com.sbs.exam.sbb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
